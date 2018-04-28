@@ -1,0 +1,79 @@
+body {
+	background: linear-gradient(
+		to right, red, green);
+}
+
+#title {
+	margin-top: 50px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	color: black
+
+}
+
+#prompt{
+	margin-top: 250px;
+	text-align: center;
+	color: black;
+	font-family: Helvetica
+}
+
+input[type="text"] {
+	width: 600px;
+	color: black;
+	font-family: Helvetica;
+	font-size: 20pt;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid powderblue;
+	background-color: transparent;
+}
+
+button {
+	font-family: Helvetica;
+	font-size: 20pt;
+	background-color: lightgreen;
+	color: gray;
+	border-radius: 10pt;
+	margin-left:auto;
+	margin-right: auto;
+	display: block
+}
+
+input:focus {
+	border-bottom: 2px solid powderblue
+}
+
+button:hover {
+	opacity: 0.6
+}
+
+#logo {
+	width: 270px;
+	height: 145px
+}
+
+#resultheader {
+	margin-top: 50px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30pt
+
+}
+
+meter {
+	width: 600px;
+	height: 50px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 40px
+}
