@@ -1,5 +1,6 @@
 # fakenews
 HackCrimson 2018 Kensho $1000 Grand Prize Winning Project
+
 Edward S. Kim '21, Nazeli Hagen '21, William Yao '21 
 
 This is a proof-of-concept flask web app that takes an article's url as input and outputs a percentage, which indicates
@@ -40,6 +41,5 @@ problem, we indirectly aimed to do this by sorting biased and unbiased articles,
 2) The regression model currently uses a dataset of 10 washington post and 10 breitbart articles, which is
 not the most representative set of the terms "unbiased" and "biased." These articles were handpicked.
 3) Every query triggers a new instance of learning, which is inefficient because 
-- requires wait time for every query instance
-- is not scalable for larger data sets,
-which require a longer time for the computer to generate a model.
+a) requires wait time for every query instance
+b) is not scalable for larger data sets, which require a longer time for the computer to generate a model.
