@@ -41,5 +41,5 @@ problem, we indirectly aimed to do this by sorting biased and unbiased articles,
 2) The regression model currently uses a dataset of 10 washington post and 10 breitbart articles, which is
 not the most representative set of the terms "unbiased" and "biased." These articles were handpicked.
 3) Every query triggers a new instance of learning, which is inefficient because 
-a) requires wait time for every query instance
+a) requires wait time for every query instance and
 b) is not scalable for larger data sets, which require a longer time for the computer to generate a model.
