@@ -11,6 +11,7 @@ assumes differences in language between fake news and normal news. For example, 
 qualifying adjectives that are strong or lopsided in connotation.
 
 Performance Analysis:
+
 The app identifies onion.com articles and clickhole.com articles as fake, which is surprisingly good, considering
 the training data was on breitbart political news and washington post political news only.
 The app identifies most new york times political articles as not fake, which is also surprisingly consistent.
