@@ -35,7 +35,7 @@ of the world in general is through a personal lens, and any writing will inheren
 are "biased," we compared highly opinionated breitbart articles to relatively unopinionated washington post articles
 of the same topics. Unfortunately, this could mean the ideal article is a static article, and any vibrant article would be 
 deemed "fake." We need to test a larger dataset with articles from The New Yorker (for example), which are more lexically vibrant.
-This introduces another problem: who is to be the determiner of biased and unbiased news in . In summary, the interesting question
+This introduces another problem: who is to be the determiner of biased and unbiased news. In summary, the interesting question
 seems to be how computers can fact check articles without any human assistance; however, due to difficulties in approaching this
 problem, we indirectly aimed to do this by sorting biased and unbiased articles, which are reasonably correlated with "real" and
 "fake" news.
